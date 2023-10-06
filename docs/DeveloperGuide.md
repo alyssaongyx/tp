@@ -294,23 +294,24 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 | Priority | As a …​ | I want to …​                                                          | So that I can…​                                            |
 |----------|---------|-----------------------------------------------------------------------|------------------------------------------------------------|
-| `* * *`  | junior  | view the list of local courses offered by NUS                         | plan my study guide to map my local courses for exchange   |
-| `* * *`  | junior  | view the list of partner courses offered by NUS' partner universities | plan my study guide to map to partner courses for exchange |
-| `* * *`  | junior  | search a local course                                                 | find the local course I am interested to map               |
-| `* * *`  | junior  | search a partner course                                               | find the partner course I am interested to map             |
-| `* * *`  | junior  | search a university                                                   | find the university I am interested to exchange in         |
-| `* * *`  | junior  | view the list of universities                                         | see what universities I am interested in                   |
-| `* *`    | junior  | sort the list of local courses by coursename or coursecode            | easily review the local courses                            |
-| `* *`    | junior  | sort the list of partner courses by coursename or coursecode          | easily review the partner courses                          |
-| `* *`    | junior  | sort the list of universities alphabetically                          | easily review the universities                             |
-| `* *`    | junior  | delete a local course                                                 | remove local courses that can no longer be mapped          |
+| `* * *`  | student | view the list of local courses offered by NUS                         | plan my study guide to map my local courses for exchange   |
+| `* * *`  | student | view the list of partner courses offered by NUS' partner universities | plan my study guide to map to partner courses for exchange |
+| `* * *`  | student | search a local course                                                 | find the local course I am interested to map               |
+| `* * *`  | student | search a partner course                                               | find the partner course I am interested to map             |
+| `* * *`  | student | search a university                                                   | find the university I am interested to exchange in         |
+| `* * *`  | student | view the list of universities                                         | see what universities I am interested in                   |
+| `* *`    | student | sort the list of local courses by coursename or coursecode            | easily review the local courses                            |
+| `* *`    | student | sort the list of partner courses by coursename or coursecode          | easily review the partner courses                          |
+| `* *`    | student | sort the list of universities alphabetically                          | easily review the universities                             |
+| `* *`    | student | delete a local course                                                 | remove local courses that can no longer be mapped          |
 | `* *`    | junior  | delete a partner course                                               | remove partner courses that can no longer be mapped        |
-| `* *`    | senior  | delete a mapping                                                      | remove mappings that are obsolete                          |
-| `* *`    | senior  | update a local course                                                 | update the mapping list based on new information           |
-| `* *`    | junior  | view the list of my notes                                             | easily view my notes that I have taken                     |
-| `* *`    | junior  | delete my notes                                                       | remove my note                                             |
-| `* `     | junior  | update the list of my notes                                           | edit any mistakes or update new information                |
-| `* `     | junior  | tag my notes                                                          | to organise my notes                                       |
+| `* *`    | student | delete a mapping                                                      | remove mappings that are obsolete                          |
+| `* *`    | student | update a local course                                                 | update the mapping list based on new information           |
+| `* * *`  | student | add notes                                                             | take note of the things I want to remember                 |
+| `* *`    | student | view the list of my notes                                             | easily view my notes that I have taken                     |
+| `* *`    | student | delete my notes                                                       | remove my note                                             |
+| `* `     | student | update the list of my notes                                           | edit any mistakes or update new information                |
+| `* `     | student | tag my notes                                                          | to organise my notes                                       |
 
 *{More to be added}*
 
