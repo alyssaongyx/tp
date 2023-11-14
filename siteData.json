@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "lam-cheng-hou": "Lam Cheng Hou",
+        "yim-sohyun": "Yim Sohyun",
+        "alyssa-ong": "Alyssa Ong",
+        "alicia-michelle-wang": "Alicia Michelle Wang",
+        "tan-jing-sheng": "Tan Jing Sheng"
       },
       "headingKeywords": {}
     },
@@ -40,30 +40,45 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
-        "acknowledgements": "Acknowledgements",
-        "setting-up-getting-started": "Setting up, getting started",
-        "design": "Design",
-        "architecture": "Architecture",
-        "ui-component": "UI component",
-        "logic-component": "Logic component",
-        "model-component": "Model component",
-        "storage-component": "Storage component",
-        "common-classes": "Common classes",
-        "implementation": "Implementation",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
-        "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
-        "appendix-requirements": "Appendix: Requirements",
-        "product-scope": "Product scope",
-        "user-stories": "User stories",
-        "use-cases": "Use cases",
-        "non-functional-requirements": "Non-Functional Requirements",
-        "glossary": "Glossary",
-        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
-        "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "seplendid-developer-guide": "SEPlendid Developer Guide",
+        "1-about-seplendid": "1. About SEPlendid",
+        "2-table-of-contents": "2. Table of Contents",
+        "3-setting-up-getting-started": "3. Setting up, Getting Started",
+        "4-design": "4. Design",
+        "4-1-architecture": "4.1 Architecture",
+        "4-2-ui-component": "4.2 UI Component",
+        "4-3-seplendidlogic-component": "4.3 SeplendidLogic Component",
+        "4-4-model-component": "4.4 Model Component",
+        "4-5-storage-component": "4.5 Storage Component",
+        "4-6-common-classes": "4.6 Common Classes",
+        "5-implementation": "5. Implementation",
+        "5-1-parser-to-handle-commands-with-optional-arguments": "5.1 Parser to Handle Commands with Optional Arguments",
+        "5-2-listing-of-courses-universities-and-notes": "5.2 Listing of Courses, Universities and Notes",
+        "5-3-adding-of-courses-universities-and-notes": "5.3 Adding of Courses, Universities and Notes",
+        "5-4-delete-feature": "5.4 Delete Feature",
+        "5-5-update-feature": "5.5 Update Feature",
+        "5-6-searching-of-courses-universities-and-notes": "5.6 Searching of Courses, Universities and Notes",
+        "5-7-sort-feature": "5.7 Sort Feature",
+        "5-8-mapping-feature": "5.8 Mapping Feature",
+        "6-other-helpful-guides": "6. Other Helpful Guides",
+        "7-requirements": "7. Requirements",
+        "7-1-product-scope": "7.1 Product Scope",
+        "7-2-user-stories": "7.2 User Stories",
+        "7-3-use-cases": "7.3 Use Cases",
+        "7-4-non-functional-requirements": "7.4 Non-Functional Requirements",
+        "7-5-glossary": "7.5 Glossary",
+        "8-instructions-for-manual-testing": "8. Instructions for Manual Testing",
+        "8-1-launch-and-shutdown": "8.1 Launch and Shutdown",
+        "8-2-local-course": "8.2 Local Course",
+        "8-3-partner-course": "8.3 Partner Course",
+        "8-4-university": "8.4 University",
+        "8-5-mapping": "8.5 Mapping",
+        "8-6-note": "8.6 Note",
+        "8-7-saving-data": "8.7 Saving Data",
+        "9-effort": "9. Effort",
+        "9-1-morphing-of-ab3-to-seplendid": "9.1 Morphing of AB3 to SEPlendid",
+        "9-2-redesigning-the-ui": "9.2 Redesigning the UI",
+        "10-acknowledgements": "10. Acknowledgements"
       },
       "headingKeywords": {}
     },
@@ -107,39 +122,80 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
-        "quick-start": "Quick start",
-        "features": "Features",
-        "viewing-help-help": "Viewing help : help",
-        "adding-a-person-add": "Adding a person: add",
-        "listing-all-persons-list": "Listing all persons : list",
-        "editing-a-person-edit": "Editing a person : edit",
-        "locating-persons-by-name-find": "Locating persons by name: find",
-        "deleting-a-person-delete": "Deleting a person : delete",
-        "clearing-all-entries-clear": "Clearing all entries : clear",
-        "exiting-the-program-exit": "Exiting the program : exit",
-        "saving-the-data": "Saving the data",
-        "editing-the-data-file": "Editing the data file",
-        "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
-        "faq": "FAQ",
-        "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "seplendid-user-guide": "SEPlendid User Guide",
+        "about-seplendid": "About SEPlendid",
+        "table-of-contents": "Table of Contents",
+        "1-how-to-navigate-this-user-guide": "1. How to navigate this User Guide",
+        "2-icons-used-in-this-user-guide": "2. Icons used in this User Guide",
+        "3-installation": "3. Installation",
+        "4-quick-reference-guide": "4. Quick Reference Guide",
+        "4-1-graphical-user-interface-gui": "4.1 Graphical User Interface (GUI)",
+        "4-2-command-format": "4.2 Command Format",
+        "4-3-try-out-your-first-command": "4.3 Try Out Your first command",
+        "5-commands": "5. Commands",
+        "5-1-commands-for-local-courses": "5.1 Commands for local courses",
+        "5-2-commands-for-partner-courses": "5.2 Commands for partner courses",
+        "5-3-commands-for-universities": "5.3 Commands for universities",
+        "5-4-commands-for-mappings": "5.4 Commands for mappings",
+        "5-5-commands-for-notes": "5.5 Commands for notes",
+        "5-6-view-help-help": "5.6 View help: help",
+        "5-7-exit-seplendid-exit": "5.7 Exit SEPlendid: exit",
+        "6-faq": "6. FAQ",
+        "7-command-summary": "7. Command summary"
       },
       "headingKeywords": {}
     },
     {
       "src": "index.md",
-      "title": "SEPlendid",
+      "title": "Home",
       "headings": {
         "seplendid": "SEPlendid"
       },
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
+      "src": "team/aliciamichellew.md",
+      "title": "Alicia Michelle Wang's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-seplendid": "Project: SEPlendid"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/alyssaongyx.md",
+      "title": "Alyssa Ong's Project Portfolio Page",
+      "headings": {
+        "project-seplendid": "Project: SEPlendid"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/dlathyun.md",
+      "title": "Yim Sohyun's Project Portfolio Page",
+      "headings": {
+        "project-seplendid": "Project: SEPlendid",
+        "summary-of-contributions": "Summary of Contributions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/lamchenghou.md",
+      "title": "Cheng Hou's Project Portfolio Page",
+      "headings": {
+        "project-seplendid": "Project: SEPlendid"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/tjingsheng.md",
+      "title": "Jing Sheng's Project Portfolio Page",
+      "headings": {
+        "project-seplendid": "Project: SEPlendid",
+        "new-features": "New Features:",
+        "code-contributions": "Code Contributions",
+        "enhancements-to-existing-features": "Enhancements to existing features",
+        "bugs-fixed": "Bugs Fixed",
+        "documentations": "Documentations"
       },
       "headingKeywords": {}
     },
